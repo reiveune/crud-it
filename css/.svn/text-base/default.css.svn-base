@@ -1,0 +1,76 @@
+/*é*/
+@charset "utf-8";
+h3{
+	text-align: center;
+}
+
+#the_table {
+  background: #F4F2FD;
+  border-color: #BBB1ED;
+  border-style: solid;
+  border-width: 0px;
+  padding:4px;
+  border-collapse:collapse;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#the_table TH{
+	background: #CFDBF3;
+	font-weight: bold;
+	color:#445276;
+}
+
+#the_table TD{
+	font-family: Arial, Verdana;
+	font-size: 11px;
+	background: #F9F8FB;
+	color: #716E6E;
+	font-weight:normal;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#the_table TD, #the_table TH{
+	padding: 5px 5px;
+}	
+TABLE TD.odd, TABLE TR.odd, tr.odd td, tbody tr.odd th{
+	background-color: #f2f2f2;
+}
+
+TABLE TD.form_var_fix{
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-variant:small-caps;
+	color: #DA2020;
+	font-weight:bold;
+	padding: 4px;
+	text-align: left;
+	background: #FBB9B9;
+}
+
+.class_hover, TD.class_hover, TR TD.class_hover, TH TD.class_hover, #the_table TD.class_hover{
+		/* background-color: #B1CFF5; */
+}
+
+.editingSize{
+		font-size: 10px;
+}
+
+.editable:hover{
+	background-color: #FFFF99;
+}
+
+input, select, textarea{
+		font-size: 100%;
+		border-top: 1px solid #7c7c7c;
+		border-left: 1px solid #c3c3c3;
+		border-right: 1px solid #c3c3c3;
+		border-bottom: 1px solid #ddd;
+		background: #fff url("fieldbg.gif") repeat-x top;
+		color: #333;
+		padding: 2px 0 2px 2px;
+}
+.btn{
+		font-size: 11px;
+}

@@ -1,0 +1,39 @@
+/*é*/
+@charset "utf-8";
+a{
+		text-decoration: none;
+}
+a:hover{
+		text-decoration: underline;
+}
+
+
+.hand_cursor{
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand; /* for IE 5.x */
+}
+
+.report {
+	text-align: left;
+	border-top: 1px solid #9c9;
+	border-bottom: 1px solid #9c9;
+	padding: 5px 5px 5px 30px;
+	font-size: 11px;
+	margin: 0 20px 15px 20px;
+	color: #060;
+	background: url("checkicon.gif") #e2f9e3 left no-repeat;
+}
+
+.error {
+	text-align: left;
+	font-weight: bold;
+	border-top: 1px solid #c99;
+	border-bottom: 1px solid #c99;
+	padding: 5px 5px 5px 27px;
+	font-size: 11px;
+	margin: 0 20px 15px 20px;
+	background: url("badicon.gif") #c00 left no-repeat;
+	color: #fff;
+}
+
+.paging_links{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#f54f00;}
